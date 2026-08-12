@@ -4,6 +4,12 @@ I build reliable AI systems, robotics experiments, developer tools, and interact
 
 My recent work focuses on vision-language-action models, multimodal AI, simulation, MCP infrastructure, and data storytelling. I enjoy turning complex technical questions into reproducible experiments and polished experiences that people can actually explore.
 
+## Recent work
+
+| SmolVLA language sensitivity | Who Does the Work? |
+|:---:|:---:|
+| [![Franka Panda visualization from the SmolVLA language-sensitivity study](https://raw.githubusercontent.com/Namprire/SmolVLA/main/results/mujoco_panda_prompt_demo/figures/panda_prompt_demo_hero_frame.png)](https://github.com/Namprire/SmolVLA) | [![Animated tour of the Who Does the Work interactive data story](https://raw.githubusercontent.com/Namprire/Tableau/main/Tableau_Website/docs/media/website-tour.gif)](https://github.com/Namprire/Tableau) |
+
 ## Selected work
 
 | Project | What it explores | Built with |
