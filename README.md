@@ -26,5 +26,3 @@ Turn repository history into reproducible bug-fix tasks, evaluate agent patches 
 ---
 
 I like turning a technical question into an experiment you can run, inspect, and understand.
-
-<sub>Animated introduction inspired by [Jason Long's profile](https://github.com/jasonlong); artwork and implementation created for this profile. Edit the conversation in [scripts/build_intro.py](scripts/build_intro.py).</sub>

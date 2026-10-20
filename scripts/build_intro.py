@@ -3,6 +3,7 @@ from html import escape
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+PACE = 1.4
 # x, y, width, height, delay, speaker, lines
 MESSAGES = [
     (28, 84, 205, 46, .35, "nam", ["Hey, I'm Nam."]),
@@ -36,7 +37,7 @@ def render(dark):
 <style>
 text {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; fill: {c['text']}; font-size: 19px; }}
 .muted {{ fill: {c['muted']}; font-size: 12px; letter-spacing: 1.6px; }}
-.message {{ animation: arrive .35s cubic-bezier(.2,.7,.2,1) backwards; }}
+.message {{ animation: arrive .45s cubic-bezier(.2,.7,.2,1) backwards; }}
 .typing {{ opacity: 0; animation: typing 1s linear; }}
 .dot {{ fill: {c['muted']}; animation: pulse .7s ease-in-out infinite alternate; }}
 @keyframes arrive {{ from {{ opacity: 0; transform: translateY(7px); }} to {{ opacity: 1; transform: translateY(0); }} }}
@@ -53,6 +54,7 @@ text {{ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, A
 <path d="M28 68H732" stroke="{c['line']}"/>
 ''']
     for i, (x, y, width, height, delay, speaker, lines) in enumerate(MESSAGES):
+        delay = round(delay * PACE, 2)
         fill = c["guest"] if speaker == "guest" else c["bubble"]
         if i in (1, 3):
             parts.append(f'<g transform="translate({x} {y})"><g class="typing" style="animation-delay:{delay - 1}s"><rect width="70" height="44" rx="18" fill="{fill}"/>')
