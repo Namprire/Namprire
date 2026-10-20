@@ -1,46 +1,30 @@
-# Hi, I'm Nam 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/intro-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/intro-light.svg">
+  <img alt="Hi, I'm Nam. I build AI experiments, robotics projects, and tools that make results easier to explore. My work includes PatchBench, robot learning with SmolVLA, and interactive data stories." src="assets/intro-light.svg" width="760">
+</picture>
 
-I build reliable AI systems, robotics experiments, developer tools, and interactive data products.
+### On the workbench
 
-My recent work focuses on vision-language-action models, multimodal AI, simulation, MCP infrastructure, and data storytelling. I enjoy turning complex technical questions into reproducible experiments and polished experiences that people can actually explore.
+**[PatchBench](https://github.com/Namprire/patchbench)** · A research workbench for coding agents.
 
-## Recent work
-
-### [PatchBench](https://github.com/Namprire/patchbench)
-
-Build reproducible software-repair benchmarks from repository history, evaluate coding agents with executable tests, and explore results in a visual research console.
+Turn repository history into reproducible bug-fix tasks, evaluate agent patches with executable tests, and explore the evidence in a visual console.
 
 [![PatchBench Build and Run workspace demo](https://raw.githubusercontent.com/Namprire/patchbench/main/docs/assets/readme/build-run-demo.gif)](https://github.com/Namprire/patchbench)
 
-*Build and Run workspace demo in simulation mode.*
+<sub>Build and Run workspace demo in simulation mode. The public repo includes runnable synthetic examples.</sub>
 
-| SmolVLA language sensitivity | Who Does the Work? |
-|:---:|:---:|
+### A few other experiments
+
+| Robots & language | AI & the work we do |
+|:---|:---|
 | [![Franka Panda visualization from the SmolVLA language-sensitivity study](https://raw.githubusercontent.com/Namprire/SmolVLA/main/results/mujoco_panda_prompt_demo/figures/panda_prompt_demo_hero_frame.png)](https://github.com/Namprire/SmolVLA) | [![Animated tour of the Who Does the Work interactive data story](https://raw.githubusercontent.com/Namprire/Tableau/main/Tableau_Website/docs/media/website-tour.gif)](https://github.com/Namprire/Tableau) |
+| **[SmolVLA language sensitivity](https://github.com/Namprire/SmolVLA)**<br>What changes in a robot's predicted actions when only the instruction changes?<br><sub>Python · PyTorch · LeRobot · MuJoCo</sub> | **[Who Does the Work?](https://github.com/Namprire/Tableau)**<br>An interactive look at AI automation and augmentation across 3,963 workplace tasks.<br><sub>Svelte · JavaScript · Tableau</sub> |
 
-## Selected work
+**Also in the notebook:** [ArrivalPackLite](https://github.com/Namprire/plane-project) — an offline SwiftUI travel app for communicating Japanese destinations to taxi drivers.
 
-| Project | What it explores | Built with |
-|---|---|---|
-| [**PatchBench**](https://github.com/Namprire/patchbench) | Reproducible software-repair benchmarks, coding-agent evaluation, and a visual research console | Python, React, Podman |
-| [**Controlled Language Sensitivity in SmolVLA**](https://github.com/Namprire/SmolVLA) | How a robot policy's predicted action changes when only the natural-language instruction changes | Python, PyTorch, LeRobot, MuJoCo |
-| [**Who Does the Work?**](https://github.com/Namprire/Tableau) | An interactive task-by-task story about AI automation and augmentation across 3,963 workplace tasks | Svelte, JavaScript, Tableau, data visualization |
-| [**ArrivalPackLite**](https://github.com/Namprire/plane-project) | An offline travel app for clearly communicating Japanese destinations to taxi drivers | Swift, SwiftUI, PDF export |
+---
 
-## What I care about
+I like turning a technical question into an experiment you can run, inspect, and understand.
 
-- Reliable and interpretable multimodal AI
-- Vision-language-action models and robot learning
-- Robotics simulation and controlled evaluation
-- Useful AI infrastructure and MCP tools
-- Interactive data storytelling
-
-## Tools I use
-
-`Python` · `PyTorch` · `Svelte` · `JavaScript` · `SwiftUI` · `FastMCP` · `MuJoCo` · `Tableau` · `Git`
-
-## Currently
-
-I am exploring how language affects embodied AI behavior, how to evaluate those systems more carefully, and how to communicate technical results clearly through software and visual stories.
-
-Browse my pinned projects or repositories below to see the experiments, evidence, demos, and implementation details.
+<sub>Animated introduction inspired by [Jason Long's profile](https://github.com/jasonlong); artwork and implementation created for this profile. Edit the conversation in [scripts/build_intro.py](scripts/build_intro.py).</sub>
