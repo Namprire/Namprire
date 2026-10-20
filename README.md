@@ -6,6 +6,14 @@ My recent work focuses on vision-language-action models, multimodal AI, simulati
 
 ## Recent work
 
+### [PatchBench](https://github.com/Namprire/patchbench)
+
+Build reproducible software-repair benchmarks from repository history, evaluate coding agents with executable tests, and explore results in a visual research console.
+
+[![PatchBench Build and Run workspace demo](https://raw.githubusercontent.com/Namprire/patchbench/main/docs/assets/readme/build-run-demo.gif)](https://github.com/Namprire/patchbench)
+
+*Build and Run workspace demo in simulation mode.*
+
 | SmolVLA language sensitivity | Who Does the Work? |
 |:---:|:---:|
 | [![Franka Panda visualization from the SmolVLA language-sensitivity study](https://raw.githubusercontent.com/Namprire/SmolVLA/main/results/mujoco_panda_prompt_demo/figures/panda_prompt_demo_hero_frame.png)](https://github.com/Namprire/SmolVLA) | [![Animated tour of the Who Does the Work interactive data story](https://raw.githubusercontent.com/Namprire/Tableau/main/Tableau_Website/docs/media/website-tour.gif)](https://github.com/Namprire/Tableau) |
@@ -14,9 +22,9 @@ My recent work focuses on vision-language-action models, multimodal AI, simulati
 
 | Project | What it explores | Built with |
 |---|---|---|
+| [**PatchBench**](https://github.com/Namprire/patchbench) | Reproducible software-repair benchmarks, coding-agent evaluation, and a visual research console | Python, React, Podman |
 | [**Controlled Language Sensitivity in SmolVLA**](https://github.com/Namprire/SmolVLA) | How a robot policy's predicted action changes when only the natural-language instruction changes | Python, PyTorch, LeRobot, MuJoCo |
 | [**Who Does the Work?**](https://github.com/Namprire/Tableau) | An interactive task-by-task story about AI automation and augmentation across 3,963 workplace tasks | Svelte, JavaScript, Tableau, data visualization |
-| [**LanDB OpenAPI MCP**](https://github.com/Namprire/fastmcp_landb_mvpv1) | A read-only-first MCP server whose tools are generated from an OpenAPI specification | Python, FastMCP, OpenAPI, httpx |
 | [**ArrivalPackLite**](https://github.com/Namprire/plane-project) | An offline travel app for clearly communicating Japanese destinations to taxi drivers | Swift, SwiftUI, PDF export |
 
 ## What I care about
