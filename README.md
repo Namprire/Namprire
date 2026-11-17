@@ -14,6 +14,24 @@ Turn repository history into reproducible bug-fix tasks, evaluate agent patches 
 
 <sub>Build and Run workspace demo in simulation mode. The public repo includes runnable synthetic examples.</sub>
 
+### Built with my team · Startup City
+
+**[Startup City](https://github.com/Ishivijay/StartupCity)** · Helsinki's startup scene as a living 3D city.
+
+One of the projects I'm proudest of building with my team. Created at **Junction 2026** for the Context.dev challenge, it turns startup discovery into a city you can explore — from northern lights above Helsinki to the companies, open roles, and news at each address.
+
+[![Startup City — fly over Helsinki under the northern lights](https://raw.githubusercontent.com/Ishivijay/StartupCity/main/docs/images/hero.gif)](https://github.com/Ishivijay/StartupCity)
+
+<p align="center">
+  <a href="https://startup-city-49829111747.europe-west2.run.app"><b>Explore the city ↗</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://youtu.be/3YMHtbJ9gyg">Watch the demo</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/Ishivijay/StartupCity">View the code</a>
+</p>
+
+<p align="center"><sub>React · TypeScript · WebGL · Express · Context.dev · Gemini</sub></p>
+
 ### A few other experiments
 
 | Robots & language | AI & the work we do |
@@ -26,3 +44,4 @@ Turn repository history into reproducible bug-fix tasks, evaluate agent patches 
 ---
 
 I like turning a technical question into an experiment you can run, inspect, and understand.
+
